@@ -1,6 +1,32 @@
-# Pixeluna
+# Pixeluna - No-Code Website Builder
+
+This document outlines the features and functionalities of Pixeluna, a no-code website builder application designed for agency owners. The application utilizes various technologies such as bun, Stripe Connect, Next.js, Shadcn, Tailwind CSS, Prisma, and Clerk for authentication.
+
 ## Introduction
-This document outlines the features and functionalities of a no-code website builder application designed for agency owners. The application utilizes various technologies such as bun, Stripe Connect, Next.js, Shadcn, Tailwind CSS, Prisma, and Clerk for authentication.
+
+Pixeluna offers a comprehensive solution for agency owners to manage their businesses efficiently, from subscription management to website creation and client management. With its user-friendly interface and powerful features, it simplifies the process of running an agency in the digital age.
+
+## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Features
 
@@ -66,5 +92,18 @@ This document outlines the features and functionalities of a no-code website bui
 - Notifications for sub-accounts.
 - Light and dark mode options.
 
-## Conclusion
-This no-code website builder application offers a comprehensive solution for agency owners to manage their businesses efficiently, from subscription management to website creation and client management. With its user-friendly interface and powerful features, it simplifies the process of running an agency in the digital age.
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
